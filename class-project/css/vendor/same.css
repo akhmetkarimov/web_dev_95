@@ -1,0 +1,108 @@
+.text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-title {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #6689FF;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.btn::after,
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: .2s;
+    opacity: 0;
+}
+
+.btn::after {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.btn::before {
+    border: 2px solid #000;
+}
+
+.btn:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.btn:hover::before {
+    opacity: 1;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    /* padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px; */
+    padding: 60px 10%;
+}
+
+
+/* .paddings {
+    padding-top: 60px;
+    padding-bottom: 60px;
+} */
+
+.btn-border {
+    background-color: transparent;
+}
+
+.btn-border::before {
+    border: 2px solid #fff;
+    opacity: 1;
+}
+
+.btn-border:hover::after {
+    background-color: #6689FF;
+}
+
+.section-top {
+    text-align: center;
+}
+
+.section-top>h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section-top>p {
+    /* padding: 0 32%; */
+    width: 36%;
+    margin: 0 auto;
+}

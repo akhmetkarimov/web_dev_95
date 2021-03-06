@@ -1,0 +1,72 @@
+body {
+    background-color: lightblue;
+    /* background-image: url(https://cdn.shopify.com/s/files/1/0806/5321/products/starry-sky-wallpaper-indigogold_ds-wallpaper_hibou-home_bobby_rabbit.jpg?v=1588285778); */
+    background-image: url(main-bg.jpg);
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 200px 600px; */
+    /* background-size: 200px; */
+
+    /* background-position: right; */
+    /* background-position: left; */
+    /* background-position: bottom; */
+    /* background-position: top; */
+    /* background-position: center; */
+
+    /* background-position: top left; */
+    /* background-position: bottom right; */
+
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    /* background-attachment: local; */
+    /* background-attachment: unset; */
+
+    /* height: 2000px; */
+}
+
+
+/* 
+
+    attributes: class, id
+
+    class - 1 ... n
+    id - 1
+
+    .className {
+        property: value;
+        property: value;
+        property: value;
+        property: value;
+        .....
+    }
+
+    #idName {
+        property: value;
+        property: value;
+        property: value;
+        property: value;
+        .....    
+    }
+
+*/
+
+#first-li {
+    background-color: purple;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.line-elem {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-align: center;
+}

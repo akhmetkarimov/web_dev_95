@@ -1,0 +1,90 @@
+.project-navs {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.project-navs>button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 20px;
+    font-weight: 500;
+    color: #9B9B9B;
+    transition: .4s;
+}
+
+.project-navs>button.active {
+    color: #6689FF;
+}
+
+.project-navs>button:not(:last-child) {
+    border-right: 1px solid #D7D7D7;
+}
+
+.project-navs>button:hover {
+    color: #6689FF;
+}
+
+.projects {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.project-item {
+    position: relative;
+    margin-bottom: 30px;
+    width: 32%;
+}
+
+.project-item>img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+    opacity: 0;
+    transition: .3s;
+}
+
+.project-info a.fas {
+    margin-right: 15px;
+    font-size: 36px;
+    color: #000;
+    transition: .5s;
+}
+
+.project-info>.btn-row {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-info a.project-link {
+    color: #6689FF;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.project-info a.project-link:hover {
+    opacity: .5;
+}
+
+.project-info a.fas:hover {
+    color: #6689FF;
+}
+
+.project-item:hover .project-info {
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+.main-home {
+    background-image: url(../../images/bgs/home-bg1.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 250px 0;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content > p {
+    width: 45%;
+    margin: 30px auto;
+    line-height: 1.5;
+}
