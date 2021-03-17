@@ -54,6 +54,10 @@
     color: #6689FF;
 }
 
+.mobile-bar {
+    font-size: 26px;
+    display: none;
+}
 
 /* .nav-list > li > a {
 

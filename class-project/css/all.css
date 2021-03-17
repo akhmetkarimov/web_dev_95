@@ -5,3 +5,5 @@
 @import url(components/service.css);
 @import url(components/projects.css);
 @import url(components/team.css);
+
+@import url(vendor/adaptive.css);
