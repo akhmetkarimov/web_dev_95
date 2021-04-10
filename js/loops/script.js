@@ -3,8 +3,8 @@
 // }
 
 let count = 10
-// 99 < 100 true
-// 100 < 100 false
+    // 99 < 100 true
+    // 100 < 100 false
 let sumE = 0
 let sumO = 0
 
@@ -12,7 +12,7 @@ while (count < 40) {
     if (count % 2 == 0) {
         document.write(`<p>Count: ${count}</p>`)
         sumE = sumE + count
-        // sumE += count
+            // sumE += count
     } else {
         sumO += count
     }
@@ -58,7 +58,7 @@ while (imgCount <= 20) {
 //      тело 
 // }
 
-for (let i = 12; i <= 32; i+=1) {
+for (let i = 12; i <= 32; i += 1) {
     document.write(`<p>For, ${i}</p>`)
 }
 
@@ -105,3 +105,59 @@ do {
 while (10 > 100) {
     document.write('<p>WHILE</p>')
 }
+
+
+
+let countF = 7
+
+let first = 1
+let second = 2
+
+document.write(` ${first} ${second} `)
+
+for (let i = 0; i < countF; i++) {
+    document.write(` ${first + second} `)
+    let temp = first // 1
+    first = second // 2
+    second = temp + first // 1 + 2 = 3
+}
+
+
+// 1 2 3 5 8 13 21
+
+// (1 + 2) = 3
+// (2 + 3) = 5
+// (3 + 5) = 8
+// (5 + 8) = 13
+// (8 + 13) = 21 
+
+// let firstNum = 12
+// let secondNum = 3
+// let result = 1
+// for (let i = 1; i <= secondNum; i++) {
+//     result *= firstNum
+// }
+// document.write(`<p>${result}</p>`)
+
+
+
+// let n1 = 21
+// let n2 = 12
+
+// let sign = prompt('Выберите команду [+, -, *, /, %] -1 для остановки')
+
+// while (sign != -1) {
+//     if (sign === '+') {
+//         alert(`${n1} + ${n2} = ${n1+n2}`)
+//     } else if (sign === '-') {
+//         alert(`${n1} - ${n2} = ${n1-n2}`)
+//     } else if (sign === '*') {
+//         alert(`${n1} * ${n2} = ${n1*n2}`)
+//     } else if (sign === '/') {
+//         alert(`${n1} / ${n2} = ${n1/n2}`)
+//     } else if (sign === '%') {
+//         alert(`${n1} % ${n2} = ${n1%n2}`)
+//     }
+
+//     sign = prompt('Выберите команду [+, -, *, /, %] -1 для остановки')
+// }
