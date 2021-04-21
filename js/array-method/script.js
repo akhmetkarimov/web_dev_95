@@ -37,7 +37,7 @@ subjects.splice(delIndex, 1)
 
 document.write(`<p>После удаления #3 (по индексу) ${subjects} </p>`)
 
-console.log('Все методы которые можно использовать с массивом', subjects.__proto__) 
+console.log('Все методы которые можно использовать с массивом', subjects.__proto__)
 // dir()
 
 let temp = [1, 1, 1, 1, 1]
